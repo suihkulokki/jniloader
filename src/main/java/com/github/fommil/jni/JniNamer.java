@@ -43,6 +43,8 @@ public class JniNamer {
       return "armv6l";
     if (arch.equals("armv7l"))
       return "armv7l";
+    if (arch.equals("aarch64"))
+      return "aarch64";
     if (arch.equals("sparc"))
       return "sparc";
     if (arch.equals("sparcv9"))
